@@ -26,12 +26,15 @@ This will:
   Predict mask/no-mask (using mask_detector.h5)
   Show live video with bounding boxes and labels
 ```
-
 ### 2. Re_train the model (optional)
 ```bash
 If you want to train the mask classifier again:
 jupyter notebook Video_Based_Facemask_Detection_Model_Creation.ipynb
 This will recreate mask_detector.h5 using the dataset provided.
+```
+### 3. For dataset visit kaggle 
+```bash
+https://www.kaggle.com/datasets/omkargurav/face-mask-dataset
 ```
 
 ## 🔄 Workflow
